@@ -1,10 +1,10 @@
-# RosettaFold Batch Endpoint on Azure ML
+# RoseTTAFold Batch Endpoint on Azure ML
 
 ## Introduction
 
-Azure is collaborating with the Baker Lab to expose their Rosetta Fold model as a service. This document describes how to get started exploring Rosetta Fold on Azure Machine Learning (Azure ML) by exposing the model as a batch endpoint. This endpoint provides a way to securely run parallel inferencing jobs against Rosetta Fold via the CLI.
+Azure is collaborating with the Baker Lab to expose their RoseTTAFold model as a service. This document describes how to get started exploring RoseTTAFold on Azure Machine Learning (Azure ML) by exposing the model as a batch endpoint. This endpoint provides a way to securely run parallel inferencing jobs against RoseTTAFold via the CLI.
 
-**Note.** This Rosetta Fold endpoint is not designed to run in production environments, and is strictly for non-production test environments.
+**Note.** This RoseTTAFold endpoint is not designed to run in production environments, and is strictly for non-production test environments.
 
 
 ## Setup
@@ -15,7 +15,7 @@ This repo contains the following key files:
 - `score.py`: Script running the inferencing code behind the endpoint.
 - `dockerfile`: Configuration file for the environment than runs on the AmlCompute (VM).
 
-To setup the RosettaFold endpoint run the following:
+To setup the RoseTTAFold endpoint run the following:
 
 1. Install the Azure ML CLI ([instructions](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-configure-cli))
   - Test installation with `az --version`
